@@ -4,6 +4,6 @@ WORKDIR /opt/otus-my-blog
 
 COPY . /opt/otus-my-blog
 
-RUN pip install sqlalchemy 
+RUN pip install -r requirements.txt
 
 CMD ["/bin/bash"]
