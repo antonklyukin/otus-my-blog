@@ -1,0 +1,39 @@
+.site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.site-content {
+    flex: 1;
+}
+
+main {
+    padding-bottom: 2em;
+}
+
+.ui.inverted.segment {
+    padding: 2em 0em;
+    background: url("../images/background.gif");
+}
+
+.ui.three.item.menu {
+    margin-top: 1em;
+}
+
+.ui.center.large.inverted.header {
+    padding-left: 1em;
+}
+
+.footer.inverted.segment {
+    padding: 4em 0em;
+    background: url("../images/background.gif");
+}
+
+.footer.inverted.segment a {
+    color: white;
+}
+
+.twelve.wide.column {
+    margin: 2em 0em;
+}
