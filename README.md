@@ -1,6 +1,6 @@
 # otus-my-blog
 
-$ exercise_05/main.html posts.html post.html article.html
+$ templates/index.html article.html contacts.html
 
 Упражнение 5
 =============
