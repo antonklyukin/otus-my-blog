@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/reset.css"/>
 
-    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"/>
 
 </head>
 <body class="site">
 <header>
     <div class="ui inverted segment">
         <div class="ui center aligned container">
-            <img class="ui middle aligned small image" src="images/logo.png">
+            <img class="ui middle aligned small image" src="../static/img/logo.png">
             <span class="ui center large inverted header">Блог о настольных варгеймах</span>
         </div>
     </div>
@@ -53,7 +53,7 @@
                 <div class="ui divided items">
                     <div class="item">
                         <div class="image">
-                            <img class="ui medium rounded image" alt="Hungarian Rhapsody" src="images/rhapsody.jpg">
+                            <img class="ui medium rounded image" alt="Hungarian Rhapsody" src="../static/img/rhapsody.jpg">
                         </div>
                         <div class="content">
                             <div class="meta">
@@ -76,7 +76,7 @@
                     </div>
                     <div class="item">
                         <div class="image">
-                            <img class="ui medium rounded image" alt="Baptism by Fire" src="images/baptism.jpg">
+                            <img class="ui medium rounded image" alt="Baptism by Fire" src="../static/img/baptism.jpg">
                         </div>
                         <div class="content">
                             <div class="meta">
@@ -101,7 +101,7 @@
                     </div>
                     <div class="item">
                         <div class="image">
-                            <img ui medium rounded image alt="SPQR" src="images/spqr.jpg">
+                            <img ui medium rounded image alt="SPQR" src="../static/img/spqr.jpg">
                         </div>
                         <div class="content">
                             <div class="meta">

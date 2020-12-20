@@ -14,7 +14,7 @@ main {
 
 .ui.inverted.segment {
     padding: 2em 0em;
-    background: url("../images/background.gif");
+    background: url("/static/img/background.gif");
 }
 
 .ui.three.item.menu {
@@ -27,7 +27,7 @@ main {
 
 .footer.inverted.segment {
     padding: 4em 0em;
-    background: url("../images/background.gif");
+    background: url("/static/img/background.gif");
 }
 
 .footer.inverted.segment a {
